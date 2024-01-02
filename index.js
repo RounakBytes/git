@@ -1,4 +1,4 @@
-import { convertArea } from "./converter";
+import { convertArea, convertTemperature } from "./converter";
 import { url } from "./server";
 
 const add = (x, y) => {
@@ -55,3 +55,11 @@ const convertedAreaInSquareYards = convertArea(areaInSquareMeters, 'squareMeters
 console.log(`100 square meters is equal to ${convertedAreaInSquareFeet} square feet.`);
 console.log(`100 square meters is equal to ${convertedAreaInSquareYards} square yards.`);
 
+const celsiusToFahrenheit = convertTemperature(25, 'Celsius', 'Fahrenheit');
+console.log(`25 Celsius is equal to ${celsiusToFahrenheit} Fahrenheit`);
+
+const kelvinToCelsius = convertTemperature(300, 'Kelvin', 'Celsius');
+console.log(`300 Kelvin is equal to ${kelvinToCelsius} Celsius`);
+
+const fahrenheitToKelvin = convertTemperature(68, 'Fahrenheit', 'Kelvin');
+console.log(`68 Fahrenheit is equal to ${fahrenheitToKelvin} Kelvin`);
