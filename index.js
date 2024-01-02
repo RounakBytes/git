@@ -1,3 +1,5 @@
+import { url } from "./server";
+
 const add = (x, y) => {
   return x + y;
 };
@@ -19,10 +21,23 @@ const divide = (x, y) => {
 
 const square = (x) => {
   return x * x;
-}
+};
 
-const areaOfCircle = (radius) =>{
+const areaOfCircle = (radius) => {
   return Math.PI * square(x);
+};
+
+function calculateFactorial(number) {
+  console.log(url);
+  if (number === 0 || number === 1) {
+    return 1;
+  } else {
+    let factorial = 1;
+    for (let i = 2; i <= number; i++) {
+      factorial *= i;
+    }
+    return factorial;
+  }
 }
 
 console.log(add(5, 10));
@@ -30,3 +45,4 @@ console.log(divide(5, 10));
 console.log(multiply(5, 25));
 console.log(square(5));
 console.log(areaOfCircle(5));
+console.log(calculateFactorial(50));

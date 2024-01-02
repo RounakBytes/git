@@ -1,0 +1,1 @@
+export const url = 'www.hello-world.com';
