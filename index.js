@@ -9,6 +9,13 @@ const multiply = (x, y) => {
 console.log(add(5, 10));
 console.log(multiple(5, 25));
 const divide = (x, y) => {
+
+  if(y === 0)
+  {
+    console.log('Cannot divide by zero');
+    return;
+  }
+
   return x / y;
 };
 
