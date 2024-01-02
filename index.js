@@ -14,6 +14,10 @@ const square = (x) => {
   return x * x;
 }
 
+const areaOfCircle = (radius) =>{
+  return Math.PI * square(x);
+}
+
 console.log(add(5, 10));
 console.log(divide(5, 10));
 console.log(multiply(5, 25));
