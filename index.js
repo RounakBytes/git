@@ -7,6 +7,13 @@ const multiply = (x, y) => {
 }
 
 const divide = (x, y) => {
+
+  if(y === 0)
+  {
+    console.log('Cannot divide by zero');
+    return;
+  }
+
   return x / y;
 };
 
