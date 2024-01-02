@@ -1,3 +1,4 @@
+import { convertArea } from "./converter";
 import { url } from "./server";
 
 const add = (x, y) => {
@@ -46,3 +47,11 @@ console.log(multiply(5, 25));
 console.log(square(5));
 console.log(areaOfCircle(5));
 console.log(calculateFactorial(50));
+// Example usage:
+const areaInSquareMeters = 100; // Replace with your input value
+const convertedAreaInSquareFeet = convertArea(areaInSquareMeters, 'squareMeters', 'squareFeet');
+const convertedAreaInSquareYards = convertArea(areaInSquareMeters, 'squareMeters', 'squareYards');
+
+console.log(`100 square meters is equal to ${convertedAreaInSquareFeet} square feet.`);
+console.log(`100 square meters is equal to ${convertedAreaInSquareYards} square yards.`);
+

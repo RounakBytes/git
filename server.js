@@ -1,1 +1,1 @@
-export const url = 'www.hello-world.com';
+export const url = 'www.google.com';
