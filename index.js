@@ -29,3 +29,4 @@ console.log(add(5, 10));
 console.log(divide(5, 10));
 console.log(multiply(5, 25));
 console.log(square(5));
+console.log(areaOfCircle(5));
