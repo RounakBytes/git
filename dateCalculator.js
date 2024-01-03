@@ -1,4 +1,6 @@
 export function dateDifference(date1, date2) {
+    if(!date1 || !date2)
+    return {};
     // Calculate the time difference in milliseconds
     const timeDifference = date2.getTime() - date1.getTime();
 
