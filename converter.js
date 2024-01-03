@@ -74,3 +74,30 @@ export function convertCurrency() {
       "Invalid currency selection.";
   }
 }
+export function decimalToBinary(decimal) {
+  let binary = "";
+  if (decimal === 0) {
+      return "0";
+  }
+
+  while (decimal > 0) {
+      let remainder = decimal % 2;
+      binary = remainder.toString() + binary;
+      decimal = Math.floor(decimal / 2);
+  }
+
+  return binary;
+}
+
+function binaryToDecimal(binary) {
+  let decimal = 0;
+  binary = binary.split("").reverse().join(""); // Reverse the binary string to start from the rightmost digit
+
+  for (let i = 0; i < binary.length; i++) {
+      if (binary[i] === '1') {
+          decimal += Math.pow(2, i);
+      }
+  }
+
+  return decimal;
+}
