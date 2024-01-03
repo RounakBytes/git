@@ -1,4 +1,5 @@
 import { convertArea, convertTemperature } from "./converter";
+import { dateDifference } from "./dateCalculator";
 import { url } from "./server";
 
 const add = (x, y) => {
@@ -63,3 +64,12 @@ console.log(`300 Kelvin is equal to ${kelvinToCelsius} Celsius`);
 
 const fahrenheitToKelvin = convertTemperature(68, 'Fahrenheit', 'Kelvin');
 console.log(`68 Fahrenheit is equal to ${fahrenheitToKelvin} Kelvin`);
+
+const date1 = new Date('2022-01-01');
+const date2 = new Date('2022-12-31');
+
+const difference = dateDifference(date1, date2);
+
+console.log(`Days Difference: ${difference.days}`);
+console.log(`Months Difference: ${difference.months}`);
+console.log(`Years Difference: ${difference.years}`);
