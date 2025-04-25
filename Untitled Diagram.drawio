@@ -1,9 +1,71 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.14">
   <diagram name="Page-1" id="5StHpTRNyNXmKJflKF1T">
-    <mxGraphModel>
+    <mxGraphModel dx="1034" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0plf4ZZ4CJps2T18fdN4-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-1" value="Step-1 &lt;br&gt;Uploading Import File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-2" value="&lt;b&gt;Start&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="105" y="78" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0plf4ZZ4CJps2T18fdN4-4" target="0plf4ZZ4CJps2T18fdN4-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-4" value="Step-2&lt;br&gt;Mapping File Headers with Collect logic Fields" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0plf4ZZ4CJps2T18fdN4-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0plf4ZZ4CJps2T18fdN4-6" target="0plf4ZZ4CJps2T18fdN4-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-6" value="Step-3&lt;br&gt;Validation of the Placement File For Errors and Warning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="108" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0plf4ZZ4CJps2T18fdN4-8" target="0plf4ZZ4CJps2T18fdN4-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0plf4ZZ4CJps2T18fdN4-8" target="0plf4ZZ4CJps2T18fdN4-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-8" value="Step-4&lt;br&gt;Approving all Warning" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0plf4ZZ4CJps2T18fdN4-10" target="0plf4ZZ4CJps2T18fdN4-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-10" value="Step-5&lt;div&gt;Submitting the Content For Import&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-12" value="Background Process Importing all the content into the System in batches" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-21" value="In this Process ,we store the data from excel to different Table ClientFileMappedContent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="565" y="-60" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0plf4ZZ4CJps2T18fdN4-24" value="We show data from ClientFileMappedContent&amp;nbsp; with BE pagination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="430" width="180" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
